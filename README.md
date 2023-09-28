@@ -1,7 +1,7 @@
-# Lidar_LDS-01_HLDS
+## Lidar_LDS-01_HLDS
 Lidar LDS-01 Hitachi-LG Data Storage Python interface
 
-# Python script:
+## Python script:
 ```
 $python lidar_LDS-01_HLDS.py
 >port: /dev/cu.usbserial-A50285BI  baud_rate: 230400
@@ -17,12 +17,15 @@ $python lidar_LDS-01_HLDS.py
 ```
 _____
 
-# C source:
+## C source:
 
 LDS-01 supports Windows, Linux, and MacOS development environments for general purposes.
+
 The software requirement is:
-GCC (for Linux and macOS), MinGW (for Windows)
-Boost library (Lib for boost system, tested on v1.66.0)
+<li>GCC (for Linux and macOS), MinGW (for Windows)</li>
+<li>Boost library (Lib for boost system, tested on v1.66.0)</li>
+
+
 
 Download:
 ```
@@ -45,7 +48,7 @@ r[359]=0.438000,r[358]=0.385000,r[357]=0.379000,...
 _____
 
 
-# Wiring diagram with USB to UART TTL FTDI FT232RL chip:
+## Wiring diagram with USB to UART TTL FTDI FT232RL chip:
 
 ![lidar_wires](https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/2f83f679-5960-458f-9e91-7a6ae71e2fd7)
 
@@ -55,7 +58,7 @@ _____
 
 
 
-# Device:
+## Device:
 
 <img width="414" alt="Screen Shot 2023-08-11 at 17 34 28" src="https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/76decc4e-beb7-4d17-b073-b4ec62fe7da8">
 
