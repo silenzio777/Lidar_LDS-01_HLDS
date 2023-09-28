@@ -15,6 +15,14 @@ $python lidar_LDS-01_HLDS.py
 >r[ 353.0 ]= 0.815
 
 ```
+Device:
+
+<img width="414" alt="Screen Shot 2023-08-11 at 17 34 28" src="https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/76decc4e-beb7-4d17-b073-b4ec62fe7da8">
+
+<br>
+<br>
+
+
 Wiring diagram:
 
 <img width="304" alt="wiring" src="https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/c169b2a3-388b-4979-9c2a-7cf149c5d1b3">
