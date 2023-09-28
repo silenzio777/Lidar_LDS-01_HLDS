@@ -18,6 +18,11 @@ $python lidar_LDS-01_HLDS.py
 _____
 
 # C source:
+LDS-01 supports Windows, Linux, and MacOS development environments for general purposes.
+The software requirement is:
+GCC (for Linux and macOS), MinGW (for Windows)
+Boost library (Lib for boost system, tested on v1.66.0)
+
 Download:
 ```
 $ git clone https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
