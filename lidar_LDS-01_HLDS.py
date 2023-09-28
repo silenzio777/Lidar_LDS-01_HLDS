@@ -50,12 +50,10 @@ def poll():
 				if( readByte == b'\xfa'):
 					start_count = 1
 					byte0 = readByte
-					## print("0>", readByte)
 			else:
 				if(start_count == 1):
 					byte1 = readByte
 					if( readByte == b'\xa0' ):
-						## print("1>", readByte)
 						start_count = 0
 
 						# Now that entire start sequence has been found, read in the rest of the message
