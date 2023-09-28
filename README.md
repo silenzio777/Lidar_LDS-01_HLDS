@@ -1,5 +1,5 @@
 # Lidar_LDS-01_HLDS
-Lidar LDS-01 Hitachi-LG Data Storage python interface
+Lidar LDS-01 Hitachi-LG Data Storage Python interface
 
 
 ```
@@ -15,3 +15,6 @@ $python lidar_LDS-01_HLDS.py
 >r[ 353.0 ]= 0.815
 
 ```
+Wiring diagram:
+
+<img width="304" alt="wiring" src="https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/c169b2a3-388b-4979-9c2a-7cf149c5d1b3">
