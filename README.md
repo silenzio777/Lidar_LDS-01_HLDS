@@ -1,7 +1,7 @@
 # Lidar_LDS-01_HLDS
 Lidar LDS-01 Hitachi-LG Data Storage Python interface
 
-
+# Python script:
 ```
 $python lidar_LDS-01_HLDS.py
 >port: /dev/cu.usbserial-A50285BI  baud_rate: 230400
@@ -15,6 +15,27 @@ $python lidar_LDS-01_HLDS.py
 >r[ 353.0 ]= 0.815
 
 ```
+
+# C source:
+Download:
+```
+$ git clone https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+```
+Or get soucre from "C_lds_driver" directory
+
+Build:
+```
+$ cd hls_lfcd_lds_driver/applications/lds_driver/
+$ make
+```
+
+Run:
+```
+$ ./lds_driver
+r[359]=0.438000,r[358]=0.385000,r[357]=0.379000,...
+```
+
+
 
 Wiring diagram with USB to UART TTL FTDI FT232RL chip:
 
