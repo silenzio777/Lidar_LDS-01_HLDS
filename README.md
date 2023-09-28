@@ -18,6 +18,7 @@ $python lidar_LDS-01_HLDS.py
 _____
 
 # C source:
+
 LDS-01 supports Windows, Linux, and MacOS development environments for general purposes.
 The software requirement is:
 GCC (for Linux and macOS), MinGW (for Windows)
