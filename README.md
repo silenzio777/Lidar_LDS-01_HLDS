@@ -4,6 +4,7 @@ Lidar LDS-01 Hitachi-LG Data Storage Python interface
 ## Python script:
 ```
 $python lidar_LDS-01_HLDS.py
+
 >port: /dev/cu.usbserial-A50285BI  baud_rate: 230400
 >lidar connect: True
 >r[ 359.0 ]= 0.784
