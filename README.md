@@ -16,7 +16,7 @@ $python lidar_LDS-01_HLDS.py
 
 ```
 
-Wiring diagram:
+Wiring diagram with USB to UART TTL FTDI FT232RL chip:
 
 ![lidar_wires](https://github.com/silenzio777/Lidar_LDS-01_HLDS/assets/7931919/2f83f679-5960-458f-9e91-7a6ae71e2fd7)
 
