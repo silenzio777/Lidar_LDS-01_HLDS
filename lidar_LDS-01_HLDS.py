@@ -5,7 +5,7 @@ Code based on "lds_driver.cpp"
  ## Authors: SP Kong, JH Yang, Pyo 
  ## maintainer: Pyo
 
- ## Python intrface authors: silenzio
+ ## Python intrface authors: silenzio777
 """
 
 import serial
